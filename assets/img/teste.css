@@ -1,0 +1,32 @@
+.selection_plans{
+    text-align: center;
+    padding: 4rem;
+    background: red;
+   
+}
+.teste {
+    text-align: center;
+    padding: 4rem;
+    background: red;   
+}
+.selection_plans h1,
+.teste h2{
+  
+    text-align: center;
+    position: relative;
+  color: var(--color-neutral-11);
+
+}
+
+.selection_plans h1:before,
+.selection_plans h1:after,
+.teste h2:before,
+.teste h2:after
+ {
+  content: "";
+  width: 25%;
+  height: 1px;
+  background: var(--color-neutral-11);
+  position: absolute;
+  top: 50%;
+}
